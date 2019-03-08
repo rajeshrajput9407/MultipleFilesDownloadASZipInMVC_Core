@@ -24,4 +24,6 @@ Multiple Files Download AS Zip In MVC_Core
                 return data;
             }
 
+        
+        }
         }
