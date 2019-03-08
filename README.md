@@ -2,8 +2,7 @@
 Multiple Files Download AS Zip In MVC_Core
 
 
- public FileResult Get(int id)
-        {
+ 
             using (var memoryStream = new MemoryStream())
             {
                 using (var ziparchive = new ZipArchive(memoryStream, ZipArchiveMode.Create, true))
@@ -24,6 +23,5 @@ Multiple Files Download AS Zip In MVC_Core
                 return data;
             }
 
+     
         
-        }
-        }
